@@ -1,0 +1,94 @@
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background-color: #b768a2 ;
+
+}
+
+#title{
+  background-color:pink;
+  display:block;
+  width:auto;
+  text-align:center;
+  padding: 1.3rem;
+    border-radius:15px;
+}
+@media(max-width: 460px){
+  #title{
+    font-size: 1.5rem
+  }
+}
+
+#img-div{
+  background-color: pink;
+    width: 80%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  border-radius:15px;
+}
+
+#image{
+  margin:1rem;
+  max-width: 100%;
+  min-heigth: 100%;
+}
+
+#img-caption{
+  margin: 2rem;
+  text-align:center;
+  font-size:0.9rem;
+  font-weight : bold;
+}
+
+#tribute-info{
+  background:pink;
+  padding:2rem;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+#headline{
+  letter-spacing:4px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+ul>li{
+  list-style:none;
+  
+}
+li>h5{
+  font-size:1.4rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom:-8px
+}
+
+@media(max-width: 460px){
+  li>h5{
+    font-size: 1.1rem
+  }
+}
+
+#tribute{
+  margin-top: 2rem;
+}
+
+#quote{
+  font-size:2rem;
+  color:white
+}
+@media(max-width: 728px){
+  #quote{
+    font-size: 1.5rem
+  }
+  @media(max-width: 460px){
+  #quote{
+    font-size: 1rem
+  }
